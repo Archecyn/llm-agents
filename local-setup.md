@@ -25,6 +25,13 @@ ollama pull deepseek-coder:6.7b
 ollama pull qwen3.5:9b
 ```
 
+Remove
+```
+ollama list
+ollama rm llama3:8b
+```
+
+
 4. Run the model and test
 
 ```
