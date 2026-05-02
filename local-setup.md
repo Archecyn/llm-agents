@@ -53,3 +53,13 @@ nano ~/.bashrc
 export PATH="/home/xxxxxx/.cargo/bin:$PATH"
 zeroclaw onboard
 ```
+
+6. ZeroClaw
+
+```
+zeroclaw agent -m "Hello, Zeroclaw"
+zeroclaw agent
+zeroclaw status
+```
+
+dashboard: http://127.0.0.1:42617
