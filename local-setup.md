@@ -22,7 +22,7 @@ curl -fsSL https://raw.githubusercontent.com/zeroclaw-labs/zeroclaw/master/insta
 ollama pull llama3.1:8b
 ollama pull mistral:7b
 ollama pull deepseek-coder:6.7b
-ollama pull qwen2.5:14b
+ollama pull qwen3.5:9b
 ```
 
 4. Run the model and test
