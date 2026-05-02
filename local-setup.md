@@ -1,0 +1,45 @@
+# Local Setup
+
+1. Install Ollama
+
+```
+curl -fsSL https://ollama/install | sh
+ollama serve
+```
+
+2. Install ZeroClaw
+
+```
+curl -fsSL https://raw.githubusercontent.com/zeroclaw-labs/zeroclaw/master/install.sh | bash
+```
+
+3. Get a model
+
+```
+ollama pull llama3.1:8b
+ollama pull mistral:7b
+ollama pull deepseek-coder:6.7b
+ollama pull qwen2.5:14b
+```
+
+4. Run the model and test
+
+```
+ollama run llama3.1:8b
+hello
+/bye
+```
+
+In a browser or curl
+
+```
+curl http://localhost:11434/api/tags
+```
+
+5. Setup ZeroClaw
+
+```
+nano ~/.bashrc
+export PATH="/home/xxxxxx/.cargo/bin:$PATH"
+zeroclaw onboard
+```
