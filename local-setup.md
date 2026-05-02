@@ -4,6 +4,9 @@
 
 ```
 curl -fsSL https://ollama/install | sh
+OLLAMA_HOST=0.0.0.0:11434 ollama serve
+
+or if not sharing on a network...
 ollama serve
 ```
 
